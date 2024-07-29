@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Request</title>
+
+        <link rel="stylesheet" type="text/css" href="donate&request.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .input-form i{
+                font-size: 500px;
+                size: 500px;
+            }
+        </style>
+    </head>
+    <body>
+      <header>
+        <header>
+          <div class="logo">
+            <a href="index.html"><img src="https://thumbs.dreamstime.com/b/blood-donation-sign-22329888.jpg" alt="logo" style="float: left;"/></a><br>
+           
+            <h1 style="text-align: center;">VITALANT</h1> 
+        </div>
+          <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About-Us.html"><pre style="font-family: 'Times new roman';">About Us</pre></a></li>
+                <li><a href="Contact-us.html"><pre style="font-family: 'Times new roman';">Contact Us</pre></a></li>
+                <li><a href="Sign-up.html"><pre style="font-family: 'Times new roman';">Sign up</pre></a></li>
+                <li><a href="Login.html">Login</a></li>   
+                <li><a href="Donate.html">Donate</a></li>  
+              </ul>
+              </nav>
+        </header>
+      </header>
+     
+        <div class="Blood-Donation-Form" style="border-radius: 40px;">
+            <h1>REQUEST BLOOD </h1>
+
+            <form>
+                <div class="input-name">
+                    <i class="fa fa-user"></i>
+                    <div class="input-name">
+                      <select class="Blood-Group" required>
+                          <option selected disabled hidden>Select a Blood Group</option>
+                          <option>AB+</option>
+                          <option>AB-</option>
+                          <option>A+</option>
+                          <option>A-</option>
+                          <option>B+</option>
+                          <option>B-</option>
+                          <option>O+</option>
+                          <option>O-</option>
+                      </select>
+                  </div>
+                        <i class="fa fa-user"></i>
+                        <input type="text" class="text-name" placeholder="Your First Name .." required>
+                    <span><br>
+                        <i class="fa fa-user"></i>
+                        <input type="text" class="text-name" placeholder="Your Last Name .." required>
+                    </span>
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-envelope email"></i>
+                    <input type="email" class="text-name" placeholder="Your Email.." required>
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-tag"></i>
+                    <input type="number" class="number-name" placeholder="Your Age" required>
+                </div>
+                
+                <div class="input-name">
+                    <ion-icon name="location"></ion-icon>
+                    <input type="text" class="text-name" placeholder="Your Location" required>
+                </div>
+                <div class="input-name">
+                    <input type="radio" class="radio-button" name="Gender" required style="width: 5%;">
+                    <ion-icon name="male"></ion-icon>
+                    <label>Male</label>
+                </div>
+                <span>
+                    <input type="radio" class="radio-button" name="Gender" required style="width: 5%;">
+                    <ion-icon name="female"></ion-icon>
+                    <label>Female</label>
+                </span>
+                <div class="input-name">
+                    <i class="fa fa-phone-square"></i>
+                    <input type="text" class="text-name" placeholder="Contact number" required>
+                </div>
+                <div class="input-name">
+                  <i class="fa fa-phone-square"></i>
+                  <input type="text" class="text-name" placeholder="Alternate Contact Number" required>
+              </div>
+               
+                <div class="input-name">
+                    <input type="checkbox" class="check-button" required style="width: 5%;">
+                    <label>Terms and Conditions</label>
+
+                </div>
+                <div class="input-name">
+                    <input type="submit" class="button" value="Request" required>
+                </div>
+            </form>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>
+    
+    </body>
+</html>
